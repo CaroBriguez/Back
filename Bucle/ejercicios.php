@@ -8,7 +8,6 @@
 <body>
     <?php
 print "<p>Ejercicio 1</p>\n";
-
 for ($i=1; $i <= 100; $i++) { 
     print "<p>$i</p>\n";
 }
