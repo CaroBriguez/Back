@@ -51,7 +51,6 @@ for ($i=1; $i <= 20; $i++) {
 }
 print "<p>La suma de los numeros es: $sumaPar</p>\n";
 
-
 ?>
 </body>
 </html>
