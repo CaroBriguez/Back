@@ -24,13 +24,6 @@
         print "<pre>\n";
     }
 
-
-    // foreach ($numPares as $numPares) {
-    //     print "<pre>\n";
-    //     print($numPares);
-    //     print "<pre>\n";
-    // }
-
     print "<pre>\n";
     print "<p>Ejercicio 2</p>\n";
     //Poner valores, Pedro, Ana, 34, 1, mostrar print_r
@@ -39,8 +32,9 @@
     print_r($random);
     
     print "<p>Ejercicio 3</p>\n";
-
     $asociativo = ['nombre'=>"Pedro",'apellido'=>"Torres",'dirección'=>"Av Mayor 3703", 'telefono'=> 1122334455];
+    print_r($asociativo);
+    print "<pre>\n";
 
     print "<p>Ejercicio 4</p>\n";
 
