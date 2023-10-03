@@ -11,14 +11,25 @@
     <?php
     print "<p>Ejercicio 1</p>\n";
     //almacenar los primeros 10 numeros pares y mostrarlos por pantalla uno abajo de otro
-    $numPares = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
-
-
-    foreach ($numPares as $numPares) {
+    $numPares = [];
+    //$i+=2 == i=i+2
+    for($i=2;$i<=20;$i+=2){
+        //Asigno los numeros pares al array
+        $numPares[]= $i;
+    }
+    //Con los numeros ya asignados le digo que recorra esos valores y los muestre
+    foreach($numPares as $j){
         print "<pre>\n";
-        print($numPares);
+        print($j);
         print "<pre>\n";
     }
+
+
+    // foreach ($numPares as $numPares) {
+    //     print "<pre>\n";
+    //     print($numPares);
+    //     print "<pre>\n";
+    // }
 
     print "<pre>\n";
     print "<p>Ejercicio 2</p>\n";
