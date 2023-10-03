@@ -9,7 +9,8 @@
 
 <body>
     <?php
-    print "<p>Ejercicio 1</p>\n";
+    print "<pre>\n";
+    print "<h1>Ejercicio 1</h1>\n";
     //almacenar los primeros 10 numeros pares y mostrarlos por pantalla uno abajo de otro
     $numPares = [];
     //$i+=2 == i=i+2
@@ -25,18 +26,18 @@
     }
 
     print "<pre>\n";
-    print "<p>Ejercicio 2</p>\n";
+    print "<h1>Ejercicio 2</h1>\n";
     //Poner valores, Pedro, Ana, 34, 1, mostrar print_r
     $random = ["Pedro","Ana",34,1];
 
     print_r($random);
     
-    print "<p>Ejercicio 3</p>\n";
+    print "<h1>Ejercicio 3</h1>\n";
     $asociativo = ['nombre'=>"Pedro",'apellido'=>"Torres",'dirección'=>"Av Mayor 3703", 'telefono'=> 1122334455];
     print_r($asociativo);
     print "<pre>\n";
 
-    print "<p>Ejercicio 4</p>\n";
+    print "<h1>Ejercicio 4</h1>\n";
 
     $ciudades = ["Madrid", "Barcelona", "Londres", "New York", "Los Angeles", "Chicago"];
 
@@ -46,7 +47,7 @@
         print "<pre>\n";
     }
     print "<pre>\n";
-    print "<p>Ejercicio 5</p>\n";
+    print "<h1>Ejercicio 5</h1>\n";
     $citys = ['MD'=>"Madrid",'BCL'=> "Barcelona",'LD'=> "Londres",'NY'=> "New York", 'LA'=>"Los Angeles",'CCG'=>"Chicago"];
     foreach($citys as $i => $j){
         print "<pre>\n";
