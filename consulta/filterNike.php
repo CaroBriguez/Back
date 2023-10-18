@@ -11,7 +11,7 @@
 
 <body>
     <h1>Tienda de ropa</h1>
-    <p>La siguiente lista muestra los datos de la ropa actualmente en stock.</p>
+    <p>La siguiente lista muestra los datos de marca Nike actualmente en stock.</p>
             
         <?php
         // 1) Conexion
@@ -25,7 +25,7 @@
         // SELECT campos_tabla FROM nombre_tabla
         // => Selecciona los siguientes campos de la siguiente tabla
 
-        $consulta = "SELECT * FROM ropa";
+        $consulta = "SELECT * FROM ropa WHERE marca='nike'";
 
         // 3) Ejecutar la orden y obtenemos los registros
         $datos = mysqli_query($conexion, $consulta);
@@ -33,9 +33,7 @@
         // 4) Mostrar los datos del registro
         print "<pre>\n";?>
 
-        <a href="./filterbuzo.php">FILTRAR POR BUZOS</a>
-        <a href="./filterNike.php">FILTRAR MARCA NIKE</a>
-        <a href="./filterPrecio.php">FILTRAR POR PRECIO + $500</a>
+        <a href="./tp5.php">VOLVER</a>
             <table class="table table-striped-columns">
                 <thead>
                     <tr>
