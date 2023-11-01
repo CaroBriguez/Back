@@ -56,7 +56,8 @@
                         echo "<td>" . $reg['marca'] . "</td>";
                         echo "<td>" . $reg['talle'] . "</td>";
                         echo "<td>" . $reg['precio'] . "</td>";
-                        echo "</tr>";
+                        echo "<td><img src='data:image/jpg;base64,". base64_encode($reg['imagen']) . "' alt='' style='max-width:100px; max-height:100px;'></td>";
+                        echo"</tr>";
                     }
                     ?>
             </table>
