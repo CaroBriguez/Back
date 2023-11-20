@@ -57,7 +57,9 @@
                         echo "<td>" . $reg['talle'] . "</td>";
                         echo "<td>" . $reg['precio'] . "</td>";
                         echo "<td><img src='data:image/jpg;base64,". base64_encode($reg['imagen']) . "' alt='' style='max-width:100px; max-height:100px;'></td>";
+                        echo "<td> <img src= ".$reg['imagen2'] ."> </td>";
                         echo"</tr>";
+
                     }
                     ?>
             </table>
